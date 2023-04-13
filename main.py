@@ -16,7 +16,7 @@ def index():
         width = float(request.form.get('width',False))        
 
         # 모델 가져오기
-        model = joblib.load("C:/Users/MAYA/PycharmProjects/AIProject/polynomial_model.pkl")
+        model = joblib.load("C:/Users/MAYA/PycharmProjects/Machin-Learning/model/polynomial_model.pkl")
            
         # 제품 무게를 예측합니다.        
         weight = 0
